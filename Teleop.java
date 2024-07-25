@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-public class MotorDebugger {
+public class Teleop {
 
     /* Public OpMode members. */
     public DcMotor frontRight;
@@ -18,7 +18,7 @@ public class MotorDebugger {
     public ElapsedTime runtime = new ElapsedTime();
 
     /* Constructor */
-    public MotorDebugger() { // rename file if it errors
+    public Teleop() {
     }
 
     /* Initialize standard Hardware interfaces */
